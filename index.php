@@ -29,7 +29,6 @@ $tableau = [
     'Franck' => ['note1' => 12, 'note2' => 12, 'note3' => 14, 'moyenne' => (12 + 12 + 14) / 3]
 ];
 
-$total = count($tableau);
 foreach ($tableau as $nom => $notes) {
     echo $nom . ' => ' . '[ ';
     foreach ($notes as $key => $note) {
